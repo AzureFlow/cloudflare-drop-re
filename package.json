@@ -1,0 +1,24 @@
+{
+  "name": "cloudflare-drop",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "AzureFlow",
+  "type": "module",
+  "scripts": {
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "fflate": "^0.8.3"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.72.0",
+    "oxlint": "^1.87.0"
+  },
+  "packageManager": "pnpm@10.32.1"
+}
